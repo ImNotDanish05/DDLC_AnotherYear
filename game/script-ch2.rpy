@@ -485,6 +485,6 @@ label ch2_main:
 
     pause 2.0
 
-    "{b}End of Chapter 2{/b}\n\nTo be continued in Chapter 3..."
+    "{b}End of Chapter 2{/b}"
 
     return

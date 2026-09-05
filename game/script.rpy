@@ -19,4 +19,5 @@ label start:
 
     call ch1_main
     call ch2_main
+    call ch3_main
     return
