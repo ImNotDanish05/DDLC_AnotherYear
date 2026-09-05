@@ -105,6 +105,7 @@ define audio.fall = "sfx/fall.ogg"
 define audio.phone = "sfx/phone.ogg"
 define audio.door_open = "sfx/dooropen.ogg"
 define audio.door_close = "sfx/doorclose.ogg"
+define audio.surprise = "sfx/surprise.ogg"
 
 
 image black = "#000000"
@@ -143,7 +144,10 @@ image bg entry_night = "bg/entry_night.png"
 image bg street_night = "bg/street_night.png"
 image bg kitchen = "bg/kitchen.png"
 image bg danish_livingroom = "bg/danish_livingroom.png"
+image bg danish_livingroom_surprise = "bg/danish_livingroom_surprise.png"
 image cake = "images/cake.png"
+image cake_candle_on = "images/cake_candle_on.png"
+image cake_candle_off = "images/cake_candle_off.png"
 image book = "images/book.png"
 image banner_zoom = "images/banner_zoom.png"
 

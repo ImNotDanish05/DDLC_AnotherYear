@@ -83,44 +83,48 @@ label ch4_main:
 
     play sound audio.door_open
 
+    scene black
+    with wipeleft_scene
+
     mc "Hello...? Mom? Dad...?"
-    "The foyer was dim."
+    "The foyer was pitch black."
     "I slipped my shoes off at the genkan, my heart pounding against my ribs."
     "I took two quiet, cautious steps toward the living room entrance."
     mc "I swear, if this is a burglar with terrible music taste, I have an umbrella and I'm not afraid to—"
 
     stop music fadeout 0.5
-    play sound audio.fall
+    play sound audio.surprise
+
+    scene bg danish_livingroom_surprise
+    with hpunch
 
     "POP! POP-POP-POP!"
     "A loud explosion of colorful paper confetti rained down on my head."
     "Cardboard party blowers shrieked in unison right in front of my face."
 
-    scene bg danish_livingroom
-    with wipeleft_scene
-
     play music never_be_alone
 
-    show sayori 1bc at t11
     s "SURPRIIIIIIIISE!"
 
     "I jumped three feet in the air, nearly tripping backward into the umbrella stand."
     mc "WHOA! WHAT THE—!"
+    "Standing together in the center of my living room with broad, triumphant grins were all four of them."
+    "Natsuki held a glowing, two-tiered birthday cake right in front, blushing with a proud smile."
+    "Sayori was leaning in with pure joy, while Monika and Yuri smiled warmly around them."
+    "I froze."
+    "My mouth fell open. My backpack slid off my shoulder, landing with a soft thud on the floor."
+    mc "You... you guys?!"
+
+    s "HAPPY BIRTHDAY, DANISH!"
+
+    scene bg danish_livingroom
+    with dissolve_scene_half
 
     show sayori 1ba at t41
     show natsuki 1ba at t42
     show yuri 1ba at t43
     show monika 1ba at t44
 
-    "Standing in the center of my living room with broad, triumphant grins were all four of them."
-    "I froze."
-    "My mouth fell open. My backpack slid off my shoulder, landing with a soft thud on the floor."
-    mc "You... you guys?!"
-
-    show sayori 1bc at h41
-    s "HAPPY BIRTHDAY, DANISH!"
-
-    show sayori 1ba at t41
     mc "Hold on! Wait! Time out!"
     mc "How did you... what are you doing in my house?! How did you even GET IN?!"
 
@@ -304,20 +308,39 @@ label ch4_main:
     show sayori 1bc at h41
     s "WOOOOOO! Make a wish! Blow them out!"
 
+    scene cake_candle_on
+    with dissolve_scene_half
+
     "I looked down at the flickering twin flames."
     "Twenty-one."
     "An hour ago, that number had felt like an insurmountable wall."
-    "Now, looking at the warm reflections dancing on their faces... the future didn't feel scary anymore."
+    "Now, looking at the warm reflections dancing across the chocolate... the future didn't feel scary anymore."
     "'Just let me keep making things that matter,' I wished silently."
     "'Let me protect this warmth. And don't let me lose the people who make this life good.'"
     "I took a deep breath, leaned in, and blew."
 
-    stop music fadeout 2.0
+    stop music fadeout 1.5
     "Fwoosh."
+
+    scene black
+    with dissolve_scene_half
+    pause 1.0
+
+    scene cake_candle_off
+    with dissolve_scene_half
+
     "A slender curl of white smoke drifted upward, carrying the sweet scent of caramel and burnt sugar."
     "The room erupted into cheers and clapping as Sayori flicked the lights back on."
 
     # --- SCENE 5: The Discord Storm & KUVART Exposed — 06:10 PM ---
+    scene bg danish_livingroom
+    with dissolve_scene_half
+
+    show sayori 1ba at t41
+    show natsuki 1ba at t42
+    show yuri 1ba at t43
+    show monika 1ba at t44
+
     "Paper plates of rich chocolate caramel cake and cups of cider were spread across the table."
     "I sat cross-legged on the floor, happily devouring a massive slice."
 
