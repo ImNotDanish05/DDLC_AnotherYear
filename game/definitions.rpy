@@ -102,6 +102,8 @@ define audio.closet_close = "sfx/closet-close.ogg"
 define audio.page_turn = "sfx/pageflip.ogg"
 define audio.fall = "sfx/fall.ogg"
 define audio.phone = "sfx/phone.ogg"
+define audio.door_open = "sfx/dooropen.ogg"
+define audio.door_close = "sfx/doorclose.ogg"
 
 
 image black = "#000000"
@@ -116,6 +118,7 @@ image bg residential_day = "bg/residential.png"
 image bg class_day = "bg/class.png"
 image bg corridor = "bg/corridor.png"
 image bg club_day = "bg/club.png"
+image bg club_sunset = "bg/club_sunset.png"
 image bg club_day2:
     choice:
         "bg club_day"
@@ -134,6 +137,7 @@ image bg bedroom = "bg/bedroom.png"
 image bg sayori_bedroom = "bg/sayori_bedroom.png"
 image bg house = "bg/house.png"
 image bg kitchen = "bg/kitchen.png"
+image cake = "images/cake.png"
 
 image bg notebook = "bg/notebook.png"
 image bg notebook-glitch = "bg/notebook-glitch.png"

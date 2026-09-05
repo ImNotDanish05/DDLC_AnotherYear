@@ -18,4 +18,5 @@ label start:
     $ config.allow_skipping = True
 
     call ch1_main
+    call ch2_main
     return

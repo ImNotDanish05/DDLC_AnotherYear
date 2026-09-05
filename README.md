@@ -44,5 +44,6 @@ This mod runs directly on the original Doki Doki Literature Club game engine (co
 * **Mod Creator**: **ImNotDanish05**
 * **Original Game**: [Doki Doki Literature Club!](https://ddlc.moe/) created by **Team Salvato**. All original characters, music, and vanilla assets belong to Dan Salvato and Team Salvato.
 * **Additional Assets**: Features select assets adapted from the DDLC mod [*Just Like Old Times*](https://dokimods.me/mods/just-like-old-times).
+* **Minecraft Cake Asset**: The cake asset featured in Chapter 2 is from [Minecraft](https://www.minecraft.net/) by Mojang Studios / Microsoft.
 
 > *This is a fan-made modification for Doki Doki Literature Club. It is not affiliated with, endorsed, or sponsored by Team Salvato. In accordance with Team Salvato's IP Guidelines, this mod requires a copy of the official game to play.*

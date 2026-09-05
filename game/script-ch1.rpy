@@ -328,6 +328,6 @@ label ch1_main:
     with dissolve_scene_full
     pause 2.0
 
-    "{b}End of Chapter 1{/b}\n\nTo be continued in Chapter 2..."
+    "{b}End of Chapter 1{/b}"
 
     return
