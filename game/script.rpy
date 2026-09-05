@@ -21,4 +21,5 @@ label start:
     call ch2_main
     call ch3_main
     call ch4_main
+    call ch5_main
     return

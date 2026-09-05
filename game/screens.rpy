@@ -1581,4 +1581,62 @@ style notify_frame:
 
 style notify_text:
     size gui.notify_text_size
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+
+init python:
+    sayori_ch5_poem_text = """The clock clicks fast when nobody is watching.
+It runs through the hallway,
+It jumps through the gate,
+And sometimes it feels like a monster you can't outrun.
+
+You look at the horizon and see shadows.
+You see gears that turn too fast,
+And towers made of metal and glass.
+
+But under my sneakers, the sidewalk is still quiet.
+The leaves still fall when the wind asks them to.
+And twenty-one is not a wall.
+It's just twenty-one steps we took side-by-side.
+
+Don't run so fast that you forget to breathe the cold air.
+Don't build so high that you forget the porch where we ate ice cream.
+The sun doesn't shine because it's afraid of the dark.
+It shines because it knows morning always comes back.
+
+Happy Birthday, Danish.
+Thank you for letting me walk beside you."""
+
+style sayori_poem_text:
+    font "gui/font/s1.ttf"
+    size 32
+    color "#000000"
+    outlines []
+
+screen sayori_poem_screen():
+    modal True
+    zorder 100
+
+    add "paper" xalign 0.5 yalign 0.5
+
+    viewport id "sayori_vp":
+        xpos 290
+        ypos 45
+        xsize 700
+        ysize 630
+        mousewheel True
+        draggable True
+        vbox:
+            spacing 12
+            text "The Steps We Count" style "sayori_poem_text" size 36
+            null height 8
+            text "[sayori_ch5_poem_text]" style "sayori_poem_text"
+            null height 30
+
+    imagebutton:
+        idle "gui/poem_dismiss.png"
+        hover "gui/poem_dismiss.png"
+        xpos 1030
+        ypos 590
+        action Return()
+
+    key "dismiss" action Return()
+    key "button_select" action Return()

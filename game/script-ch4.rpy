@@ -85,6 +85,7 @@ label ch4_main:
 
     scene black
     with wipeleft_scene
+    stop music fadeout 2
 
     mc "Hello...? Mom? Dad...?"
     "The foyer was pitch black."
@@ -92,19 +93,18 @@ label ch4_main:
     "I took two quiet, cautious steps toward the living room entrance."
     mc "I swear, if this is a burglar with terrible music taste, I have an umbrella and I'm not afraid to—"
 
-    stop music fadeout 0.5
+    
     play sound audio.surprise
 
     scene bg danish_livingroom_surprise
     with hpunch
 
-    "POP! POP-POP-POP!"
-    "A loud explosion of colorful paper confetti rained down on my head."
-    "Cardboard party blowers shrieked in unison right in front of my face."
+    "POP! PREEEEET! SURPRIIIIIIIISE!"
 
     play music never_be_alone
 
-    s "SURPRIIIIIIIISE!"
+    "A loud explosion of colorful paper confetti rained down on my head."
+    "Cardboard party blowers shrieked in unison right in front of my face."
 
     "I jumped three feet in the air, nearly tripping backward into the umbrella stand."
     mc "WHOA! WHAT THE—!"
@@ -496,6 +496,6 @@ label ch4_main:
 
     pause 2.0
 
-    "{b}End of Chapter 4{/b}\n\nTo be continued in Chapter 5..."
+    "{b}End of Chapter 4{/b}"
 
     return
