@@ -96,6 +96,7 @@ define audio.ghostmenu = "<loop 0>bgm/ghostmenu.ogg"
 define audio.g1 = "<loop 0>bgm/g1.ogg"
 define audio.g2 = "<loop 0>bgm/g2.ogg"
 define audio.hb = "<loop 0>bgm/heartbeat.ogg"
+define audio.never_be_alone = "<loop 0>bgm/never_be_alone.ogg"
 
 define audio.closet_open = "sfx/closet-open.ogg"
 define audio.closet_close = "sfx/closet-close.ogg"
@@ -137,9 +138,14 @@ image bg closet = "bg/closet.png"
 image bg bedroom = "bg/bedroom.png"
 image bg sayori_bedroom = "bg/sayori_bedroom.png"
 image bg house = "bg/house.png"
+image bg house_night = "bg/house_night.png"
+image bg entry_night = "bg/entry_night.png"
+image bg street_night = "bg/street_night.png"
 image bg kitchen = "bg/kitchen.png"
+image bg danish_livingroom = "bg/danish_livingroom.png"
 image cake = "images/cake.png"
 image book = "images/book.png"
+image banner_zoom = "images/banner_zoom.png"
 
 image bg notebook = "bg/notebook.png"
 image bg notebook-glitch = "bg/notebook-glitch.png"
@@ -1176,6 +1182,11 @@ image monika 2 = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "moni
 image monika 3 = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/1r.png", (0, 0), "monika/a.png")
 image monika 4 = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/2r.png", (0, 0), "monika/a.png")
 image monika 5 = im.Composite((960, 960), (0, 0), "monika/3a.png")
+image monika 1ba = "images/monika_casual_1a.png"
+image monika 1bb = "images/monika_casual_1b.png"
+image monika 1bc = "images/monika_casual_1c.png"
+image monika 1bd = "images/monika_casual_1d.png"
+image monika 1be = "images/monika_casual_1e.png"
 
 image monika 1a = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "monika/a.png")
 image monika 1b = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "monika/b.png")
