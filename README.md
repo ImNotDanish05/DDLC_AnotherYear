@@ -2,6 +2,8 @@
 
 A custom Doki Doki Literature Club fan mod created by **ImNotDanish05**.
 
+![DDLC: Another Year, Another Page](Screenshoot/main.png)
+
 ---
 
 ## 📖 About the Game
@@ -25,6 +27,17 @@ Through grounded, daily conversations and heartfelt moments with the Literature 
   * **Chapter 3**: *A Cup of Roasted Barley* (Yuri 1-on-1, 1884 book on human depth vs machine speed)
   * **Chapter 4**: *Twenty-One Candles* (Full club surprise party, KUVART boys group call chaos, Monika's piano & speech)
   * **Chapter 5**: *Streetlights & Rainclouds* (Night walk home with Sayori, addressing rainclouds & future fears, finding peace)
+
+---
+
+## 📸 Screenshots
+
+| | |
+|:---:|:---:|
+| ![Surprise Party](Screenshoot/main.png) | ![Club Celebration](Screenshoot/additional_01.png) |
+| *"POP! PREEEET! SURPRIIIIIISE!"* | *"And WHEN did you even coordinate this?!"* |
+| ![Night Walk with Sayori](Screenshoot/additional_02.png) | ![Monika's Heartfelt Words](Screenshoot/additional_03.png) |
+| *"You... you are the reason I remember to be human."* | *"Danish... thank you for being the heart of this club."* |
 
 ---
 
